@@ -16,6 +16,15 @@ li {
   display: inline;
 }
 
+.nav__right {
+  float: right;
+}
+
 nav li a {
   color: #575658; 
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
